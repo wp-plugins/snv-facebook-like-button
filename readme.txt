@@ -8,7 +8,7 @@ Tags: wp, facebook, facebook like button
 Requires at least: 2.3
 Plugin URI: http://www.studionashvegas.com/plugins/facebook-like-button-plugin/
 Tested up to: 2.9.2
-Stable tag: 2.0
+Stable tag: 1.0
 
 This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph
 
@@ -39,7 +39,7 @@ Yes! Use **` <?php if(function_exists('add_facebook_button')) { add_facebook_but
 0.1a - initial release.  
 0.2a - fixed spacing issue both above and below
 
-1.0 - first stable release - added manual insertion of plugin via function.
+2.0 - first stable release - added manual insertion of plugin via function.
 
 == Upgrade Notice ==
 This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph
