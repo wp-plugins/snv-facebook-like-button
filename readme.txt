@@ -1,39 +1,49 @@
-=== Plugin Name ===
+=== SNV Facebook Like Button ===
 Plugin Name: SNV Facebook Like Button
-Plugin URI: http://www.studionashvegas.com/plugins/facebook-like-button-plugin/
-Description: Drops in a Facebook "like" button below your content on your site!  Allows for a width to be set (to match your blog's width) and the color scheme to be set (light or dark).
 Author: Mitch Canter
-Contributors: Mitch Canter
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GEMDJDM63MXZJ
-Tags: wp, facebook, facebook like button, 
+Author URI: http://www.studionashvegas.com/
+Contributors: Mitch Canter, Amber Weinberg 
+Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GEMDJD
+Tags: wp, facebook, facebook like button 
 Requires at least: 2.3
+Plugin URI: http://www.studionashvegas.com/plugins/facebook-like-button-plugin/
 Tested up to: 2.9.2
-Version: 0.2a
-Stable tag: trunk
-Author URI: http://www.studionashvegas.com
+Stable tag: 2.0
+
+This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph
 
 == Description ==
-This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph.  When a user inserts this into their site, and a reader clicks the like button, their picture will show up in the space provided.  Also, an entry onto the users "Recent Activity" will show that they liked your site's entry.  Very easy to use, and very easy to implement.  Options allow setting of the width and color scheme (light or dark).
 
+This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph.  When a user inserts this into their site, and a reader clicks the like button, their picture will show up in the space provided.  Also, an entry onto the users "Recent Activity" will show that they liked your site\'s entry.  Very easy to use, and very easy to implement.  Options allow setting of the width and color scheme (light or dark).  
+  
 This plugin is loosely based on ajb{log}'s "Facebook Like Button Widget" plugin.
 
+Special Thanks to [Amber Weinberg](http://www.amberweinberg.com/ "Plugin Homepage")
+ for her contribution to the plugin's core!
+
 == Installation ==
-1) Download and install this plugin to your wp-content/plugins directory
-2) Activate
-3) Set up the options (width and color scheme)
 
+1) Download and install this plugin.  
+2) Activate  
+3) Set up the options (width and color scheme).  Also, choose whether to insert the plugin manually or automatically at the end of the content.
+
+If you set the option to Manual, use **`<?php if(function_exists('add_facebook_button')) { add_facebook_button(); }?>`** If you uninstall the plugin, this will ensure your theme still works.  
+</div>
 == Frequently Asked Questions ==
-Coming Soon
 
-== Screenshots ==
-Coming Soon
-
+Can I insert this plugin manually?  
+  
+Yes! Use **` <?php if(function_exists('add_facebook_button')) { add_facebook_button(); }?> `**</div> 
+ 
 == Changelog ==
-0.1a - initial release.
+0.1a - initial release.  
 0.2a - fixed spacing issue both above and below
 
-== Upgrade Notice ==
-If you are installing this from the plugin database, delete any old copies you have and do a fresh install - it will carry your settings over.
+1.0 - first stable release - added manual insertion of plugin via function.
 
-== Donations ==
-Dontations can be made to mailto:mitch@studionashvegas.com via PayPal.  This isn't my day job (which is more design than development) but I'd be happy to help with support (keep in mind it may be a day or two before I can help).
+== Upgrade Notice ==
+This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph
+
+== Screenshots ==
+(coming soon)
+This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph
