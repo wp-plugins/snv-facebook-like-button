@@ -41,6 +41,7 @@ Yes! Use **` <?php if(function_exists('add_facebook_button')) { add_facebook_but
 0.2a - fixed spacing issue both above and below
 1.0 - first stable release - added manual insertion of plugin via function.
 1.5 - added the rest of the options FB gives you (minus the button type - I like the faces, and that's specifically what I designed this plugin to do).
+1.6 - for some reason 1.5 couldn't be downloaded so 1.6 is just a clone to resync the plugin repository.
 
 == Upgrade Notice ==
 This plugin allows you to drop in a very simple widget that showcases the new Facebook "like" button powered by OpenGraph
